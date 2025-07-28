@@ -1,3 +1,29 @@
 .idea
 .venv
 .idea/*.xml
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/ # Or specify a more granular path if only certain media should be ignored
+
+# Virtual Environment
+#.env
+#venv/
+#env/
+
+# IDE-specific files (e.g., PyCharm)
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Other common files to ignore
+.coverage
+.tox/
+.eggs/
